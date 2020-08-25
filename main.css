@@ -2,8 +2,10 @@
   display: grid;
   grid-template-columns: repeat(16, 50px);
   grid-template-rows: repeat(16, 50px);
-  justify-content: center;
+  margin: auto;
+  border: 2px solid black;
+  max-width: 800px;
 }
 .grid {
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
 }
